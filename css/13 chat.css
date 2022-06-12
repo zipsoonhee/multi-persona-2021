@@ -1,0 +1,66 @@
+#chat-screen {
+    background-color: var(--gray);
+    height: 10000vh;
+    background-color: var(--gray);
+}
+
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+    top:0;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: var(--gray);
+    background-image:url(https://cdn.pixabay.com/photo/2018/02/23/22/12/concrete-wall-3176815_1280.jpg);
+ }
+
+.main-chat {
+  margin-top : 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#chat-screen .status-bar {
+    z-index: 2;
+}
+
+#chat-screen .alt-header {
+    z-index: 1; 
+}
+
+.chat__timestamp {
+    color: white;
+    background-color: var(--gray);
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 25px;
+    margin-bottom: 25px;
+}
+
+.message-row {
+    width: 100%;
+    display: flex;
+}
+
+.message-row img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.messagae__author {
+    opacity: 0.8;
+    font-size: 13px;
+    margin-bottom: 20px;
+    display: block;
+    
+}
+
+.message__bubble {
+    display: block;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 15px;
+}   

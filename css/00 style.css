@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+@import "reset.css";
+@import "01 status-bar.css";
+@import "variables.css";
+@import "02 login.css";
+@import "03 nav-bar.css";
+@import "04 screen-header.css";
+@import "05 friends.css";
+@import "06 user-component.css";
+@import "07 badge.css";
+@import "08 find.css";
+@import "09 more.css";
+@import "10 icon-row.css";
+@import "11 alt-screen-header.css";
+@import "12 settings.css";
+@import "13 chat.css";
+
+body {
+    font-family: 'Special Elite', cursive;
+    background-image:url(https://cdn.pixabay.com/photo/2018/02/23/22/12/concrete-wall-3176815_1280.jpg);
+}
+
+
+.main-screen {
+    padding:0px var(--horizontal-space);
+}
