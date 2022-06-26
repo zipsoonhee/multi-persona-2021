@@ -59,6 +59,7 @@
 
 .open-chat__header span {
     opacity: 0.7;
+    margin: 25px 0px;
 }
 
 .open-post {
@@ -129,9 +130,37 @@
     bottom: 5px;
     right: 5px;
     font-size: 12px;
+    position: relative;
+    bottom: 40px;
+    right: -55px;
+    font-size: 14px;
+    margin-right : 60px;
+    text-align: center;
 }
 
 .open-post__heart-count span {
     margin-left: 5px;
 
+}
+
+@keyframes heartBeat {
+    0%{
+        color: white;
+        transform: none;
+    }
+    50%{
+        color : tomato;
+        opacity : 1;
+        transform : scale(1.5);
+        
+    }
+    100%{
+        color: white;
+    }
+}
+
+
+.open-post__heart-count:hover i {
+    will-change: tranform;
+    animation: heartBeat 1s linear infinite;
 }

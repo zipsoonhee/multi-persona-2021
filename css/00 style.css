@@ -14,6 +14,7 @@
 @import "11 alt-screen-header.css";
 @import "12 settings.css";
 @import "13 chat.css";
+@import "14 no-mobile.css";
 
 body {
     font-family: 'Special Elite', cursive;
